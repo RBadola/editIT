@@ -1,0 +1,55 @@
+
+
+.container-cropper {
+	display: grid;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	/* width: 100%; */
+}
+
+.cropper {
+	height: 50vh;
+	align-self: 16/9;
+	position: relative;
+	border: 2px solid white;
+	width: 70vw;
+	justify-self: center;
+	padding: 2px;
+}
+.upBtn{
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%,-50%)
+}
+.slider {
+	height: 10%;
+	margin: auto;
+}
+.settings{
+	padding: 4px;
+	margin-top: 3px;
+}
+.zoom{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.btn{
+	margin-right: 2px;
+}
+.downBtn{
+	margin-top: 4px;
+}
+.just{
+	display: flex;
+	justify-content: space-between;
+	max-width: 160px;
+}
+.num{
+	background-color: rgb(70, 67, 67);
+	padding:2px;
+	border-radius: 2px;
+}
